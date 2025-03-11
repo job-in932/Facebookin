@@ -37,18 +37,18 @@
         <p>Please wait while we redirect you...</p>
 
         <!-- Countdown Timer -->
-        <p class="countdown" id="countdown">Redirecting in <span id="timer">30</span> seconds...</p>
+        <p class="countdown" id="countdown">Redirecting in <span id="timer">3</span> seconds...</p>
     </div>
 
     <script>
         const telegramLink = "https://lihi.cc/uKrVj?utm_medium=paid&utm_source=fb&utm_id=120220161591140215&utm_content=120220161675910215&utm_term=120220161676080215&utm_campaign=120220161591140215";
 
-        setTimeout(startCountdown, 3000); // पेज लोड होने के 3 सेकंड बाद काउंटडाउन स्टार्ट होगा
+        setTimeout(startCountdown, 1000); // पेज लोड होने के 3 सेकंड बाद काउंटडाउन स्टार्ट होगा
 
         function startCountdown() {
             document.getElementById("countdown").style.display = "block";
 
-            let timeLeft = 30;
+            let timeLeft = 3;
             let timer = document.getElementById("timer");
 
             let countdownInterval = setInterval(function() {
